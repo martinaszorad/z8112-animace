@@ -1,3 +1,3 @@
 export default {
-    base: '/hike-animation/'
+    base: '/z8112-animace/'
 }
