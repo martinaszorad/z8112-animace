@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Animation</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="nouislider/dist/nouislider.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script type="module" src="semantic/dist/semantic.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <script type="module" src="main.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <h1 class="ui header">Západným hrebeňom Nízkych Tatier</h1>
+            <div class="ui fluid search selection dropdown" id="day-choice">
+                <div class="text"></div>
+                <i class="dropdown icon"></i>
+            </div>
+            <img id="map" alt="Map">
+            <div id="legend-slider" class="row">
+                <div class="column">
+                    <img id="legend" alt="Legend" src="img/legend.png">
+                </div>
+                <div class="column">
+                    <div id="slider"></div>
+                    <button class="ui icon button" id="play">
+                        <i class="play icon"></i>
+                    </button>
+                    <button class="ui icon button" id="pause">
+                        <i class="pause icon"></i>
+                    </button>
+                    <button class="ui icon button" id="undo">
+                        <i class="undo icon"></i>
+                    </button>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
