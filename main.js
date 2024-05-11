@@ -83,7 +83,7 @@ document.getElementById("play").onclick = async function() {
         index++;
         updateImage();
         updateSlider();
-        await sleep(200);
+        await sleep(500);
     }
 };
 
